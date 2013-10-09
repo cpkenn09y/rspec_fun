@@ -13,7 +13,7 @@ class SudokuSolver
   def get_row(given_index)
     row = []
     @board.each_with_index do |element, index|
-      if index/9 == given_index/9 
+      if index/9 == given_index/9
         row << element
       end
     end
@@ -30,5 +30,5 @@ class SudokuSolver
   row
   end
 
-  
+
 end
